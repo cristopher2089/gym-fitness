@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gym Fitness</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="scroll-animation.css" />
+  <script src="https://use.fontawesome.com/de365867ae.js"></script> <!--font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about-us">About Us</a>
+  <a href="#why-choose-us">Why Choose Us</a>
+  <a href="#services">Services</a>
+  <a href="#classes">Classes</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact-us">Contact Us</a>
+</div>
+
+<div id="mobile-button">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true" style="color:#ffffff;"></i>&nbsp;<a class="navbar-brand" href="#"><h4 style="font-weight:900;color:#ffffff;">Gym<span style="color:#E39928;">Fitness</span></h4></a></span>
+</div>
+
+
+
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><h4 style="font-weight:900;color:#ffffff;">Gym<span style="color:#E39928;">Fitness</span></h4></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#why-choose-us">Why Choose Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li> 
+	  <li class="nav-item">
+        <a class="nav-link" href="#classes">Classes</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-us">Contact Us</a>
+      </li> 	  
+    </ul>
+  </div>  
+</nav>
+
+
+
+
+
+<!--banner-->
+<div id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" data-san="slideRight">
+				<div id="banner-txt">
+					<h6>SHAPE YOUR BODY</h6>
+					<h1>BE <span id="strong">STRONG</span></h1>
+					<h1>TRAIN HARD</h1><br>
+					<a href="#about-us"><button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button></a>
+				</div>
+			
+			</div>
+			<div class="col-md-6">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--about us-->
+<div id="about-us">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6" id="about-txt" data-san="slideRight">
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<button type="button" class="btn" id="read-more">READ MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+			</div>
+			<div class="col-md-6" data-san="slideLeft">
+				<img src="images/crossfit.jpg" class="img-fluid">
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!--why choose us-->
+<div id="why-choose-us">
+	<div class="container">
+		<p id="choose-us">WHY CHOOSE US?</p>
+		<p id="push">PUSH YOUR LIMITS FORWARD</p>
+		<div class="row">
+			<div class="col-md-3" data-san="slideRight">
+				<div class="why-content">
+					<i class="fa fa-cogs" aria-hidden="true"></i><br><br>
+					<h3>Modern Equipment</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideLeft">
+				<div class="why-content">
+					<i class="fa fa-cutlery" aria-hidden="true"></i><br><br>
+					<h3>Healthy Nutrition Plan</h3>
+					<p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideRight">
+				<div class="why-content">
+					<i class="fa fa-users" aria-hidden="true"></i><br><br>
+					<h3>Professional Training Plan</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
+				</div>
+			</div>
+			<div class="col-md-3" data-san="slideLeft">
+				<div class="why-content">
+					<i class="fa fa-heartbeat" aria-hidden="true"></i><br><br>
+					<h3>Unique To Your Needs</h3>
+					<p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis..</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--services-->
+<div id="services">
+	<div class="container">
+		<p id="services-txt">OUR SERVICES</p>
+		<p id="services-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident,
+					doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+		<div class="row">
+			<div class="col-md-4" data-san="slideRight">
+				<div id="services-card">
+					<h4>Aerobics</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideLeft">
+				<div id="services-card">
+					<h4>Cardio</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			
+			</div>
+			<div class="col-md-4" data-san="slideRight">
+				<div id="services-card">
+					<h4>Consulting</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			
+			</div>
+		</div>
+		<div class="row" style="margin-top:2%;">
+			<div class="col-md-4" data-san="slideRight">
+				<div id="services-card">
+					<h4>Gym</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideLeft">
+				<div id="services-card">
+					<h4>Spa Energy</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			
+			</div>
+			<div class="col-md-4" data-san="slideRight">
+				<div id="services-card">
+					<h4>Events</h4><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--classes-->
+<div id="classes">
+	<div class="container">
+		<p id="our-classes">OUR CLASSES</p>
+		<p id="offer">WHAT WE OFFER</p>
+		<div class="row">
+			<div class="col-md-4" data-san="slideRight">
+				<div id="class-card">
+					<img src="images/weightlifting.jpg" class="img-fluid"><br><br>
+					<h4>WEIGHTLIFTING</h4>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideLeft">
+				<div id="class-card">
+					<img src="images/crossfit-training.jpg" class="img-fluid"><br><br>
+					<h4>CROSSFIT TRAINING</h4>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideRight">
+				<div id="class-card">
+					<img src="images/boxing.jpg" class="img-fluid"><br><br>
+					<h4>BOXING</h4>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			</div>
+		</div><br><br>
+		
+		<div class="row">
+			<div class="col-md-6" data-san="slideRight">
+				<div id="class-card">
+					<img src="images/zumba.jpg" class="img-fluid"><br><br>
+					<h4>ZUMBA</h4>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+			
+			</div>
+			<div class="col-md-6" data-san="slideLeft">
+				<div id="class-card">
+					<img src="images/yoga.jpg" class="img-fluid"><br><br>
+					<h4>YOGA</h4>
+					<button type="button" class="btn" id="learn-more">LEARN MORE&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+				</div>
+
+			</div>
+		</div>
+	</div>	
+</div>
+
+<!--register-->
+<div id="register">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="register-txt" data-san="slideTop">
+				<h1>REGISTER NOW TO GET MORE DEALS</h1>
+				<h6>Where health, fitness and wellness meet</h6>
+				<button type="button" class="btn" id="appointment-btn">BOOK AN APPOINTMENT NOW</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--studio-->
+<div id="studio">
+	<div class="container">
+		<p id="fitness-studio">OUR FITNESS STUDIO<p>
+		<p id="fitness-desc">Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque
+			ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+		<div class="row">
+			<div class="col-md-6" id="studio-txt" data-san="slideRight">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. 
+				Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. 
+				Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+				<p><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Lorem ipsum dolor sit amet</p>
+				<p><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Consectetur adipiscing elit</p>
+				<p><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Curabitur aliquet quam id dui</p>
+				<p><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>&nbsp;Donec sollicitudin molestie malesuada</p>
+			</div>
+			<div class="col-md-6" data-san="slideLeft">
+				<img src="images/studio.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<!--pricing-->
+<div id="pricing">
+	<div class="container">
+		<p id="our-plan">OUR PLAN</p>
+		<p id="pricing-plan">CHOOSE YOUR PRICING PLAN</p>
+		<div class="row">
+			<div class="col-md-4" data-san="slideRight">
+				<div id="pricing-card">
+					<h5>Class drop-in</h5>
+					<h1>₱45.0</h1>
+					<h6>SINGLE CLASS</h6><br>
+					<p>Free Riding</p>
+					<p>Unlimited Equipments</p>
+					<p>Personal Trainer</p>
+					<p>Weight losing classes</p>
+					<p>Month to month</p>
+					<p>No time restriction</p><br>
+					<button type="button" class="btn" id="enroll-btn">ENROLL NOW</button>
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideTop">
+				<div id="pricing-card">
+					<h5>12 month unlimited</h5>
+					<h1>₱99.0</h1>
+					<h6>SINGLE CLASS</h6><br>
+					<p>Free Riding</p>
+					<p>Unlimited Equipments</p>
+					<p>Personal Trainer</p>
+					<p>Weight losing classes</p>
+					<p>Month to month</p>
+					<p>No time restriction</p><br>
+					<button type="button" class="btn" id="enroll-btn">ENROLL NOW</button>
+				</div>
+			</div>
+			<div class="col-md-4" data-san="slideLeft">
+				<div id="pricing-card">
+					<h5>6 month unlimited</h5>
+					<h1>₱69.0</h1>
+					<h6>SINGLE CLASS</h6><br>
+					<p>Free Riding</p>
+					<p>Unlimited Equipments</p>
+					<p>Personal Trainer</p>
+					<p>Weight losing classes</p>
+					<p>Month to month</p>
+					<p>No time restriction</p><br>
+					<button type="button" class="btn" id="enroll-btn">ENROLL NOW</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--contact us-->
+<div id="contact-us">
+	<div class="container">
+		<p id="get-in-touch">GET IN TOUCH WITH US</p>
+		<p id="get-desc">FOR QUESTIONS OR INQUIRIES, SEND US AN EMAIL</p>
+		<div class="row">
+			<div class="col-md-6" data-san="slideRight">
+				<form action="/action_page.php">
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+					</div>
+					
+				</form>
+			</div>
+			<div class="col-md-6" data-san="slideLeft">
+				<form action="/action_page.php">					
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Your Message:</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					 </div>
+					<button type="submit" class="btn" id="btn-submit">Submit</button>
+				</form>
+			</div>
+		</div>
+		<div class="row" style="margin-top:2%;">
+			<div class="col-md-12">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61762.567453516654!2d121.06964311077255!3d14.646830925385643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9a2777a00f9%3A0x6d36c8f429a12fc6!2sMarikina%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1622966943031!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!--footer-->
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3" id="f-col-1">
+				<h4 style="font-weight:900;color:#ffffff;">Gym<span style="color:#E39928;">Fitness</span></h4>
+				<p>Cras fermentum odio eu feugiat lide par naso tierra. 
+				   Justo eget nada terra videa magna derita valies darta 
+				   donna mare fermentum iaculis eu non diam phasellus.</p>
+				<i class="fa fa-facebook-official" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</div>
+			<div class="col-sm-3" id="useful-links">
+				<h5>LINKS</h5>
+				<p>About Us</p>
+				<p>Why Choose Us</p>
+				<p>Classes</p>
+				<p>Pricing</p>
+				<p>Term of Service</p>
+				<p>Privacy Policy</p>
+			
+			</div>
+			<div class="col-sm-3" id="our-services">
+				<h5>OUR SERVICES</h5>
+				<p>Aerobics</p>
+				<p>Cardio</p>
+				<p>Consulting</p>
+				<p>Gym</p>
+				<p>Spa Energy</p>
+				<p>Events</p>
+				
+			</div>
+			<div class="col-sm-3" id="address-number">
+				<h5>CONTACT US</h5>
+				<p>Unit 2089 CT Suites JP Rizal St., Concepcion Uno, Marikina City</p>
+				<p><b>Phone Number:</b>07-9876543/09871234567</p>
+				<p><b>Email:</b>&nbsp;info@example.com</p>
+			
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12" id="footer-2">
+				<p>© Copyright.GymFitness.2021.All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<script src="scroll-animation.js"></script>
+</body>
+</html>

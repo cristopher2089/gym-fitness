@@ -1,0 +1,426 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+	overflow-x:hidden;
+	font-family:'Century Gothic';
+}
+
+
+#collapsibleNavbar ul li {
+	font-size:12px;
+	text-decoration:none;
+	font-weight:500;
+	color:#ffffff;
+	
+}
+/*banner*/
+#banner{
+  background-image: url(images/banner-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:12%;
+  padding-bottom:12%;
+}
+#banner-txt{
+	color:#ffffff;
+	
+}
+#banner-txt h1{
+	font-weight:900;
+}
+#strong{
+	color:#E39928;
+}
+#learn-more{
+	color:#ffffff;
+	background-color:#E39928;
+	border-radius:0px;
+}
+#learn-more:hover{
+	color:#ffffff;
+	background-color:transparent;
+	border:1px solid #ffffff;
+}
+
+/*about us*/
+#about-us{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#333333;
+	color:#ffffff;
+}
+#about-txt{
+	margin-bottom:2%;
+}
+#about-txt h2{
+	font-weight:900;
+	
+}
+#read-more{
+	color:#ffffff;
+	background-color:#E39928;
+	border-radius:0px;
+}
+#read-more:hover{
+	color:#ffffff;
+	background-color:transparent;
+	border:1px solid #ffffff;
+}
+
+
+
+/*why choose us*/
+#why-choose-us{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#0a0a0a;
+}
+#choose-us{
+	text-align:center;
+	font-size:15px;
+	color: #f36100;
+	font-weight:600;
+}
+#push{
+	text-align:center;
+	font-size:27px;
+	color: #ffffff;
+	font-weight:900;
+	margin-bottom:3%;
+}
+.why-content{
+	text-align:center;
+	color:#ffffff;
+}
+.why-content h3{
+	font-weight:900;
+}
+.why-content p{
+	font-size:13px;
+}
+.why-content .fa{
+	color:#E39928;
+	font-size:40px;
+}
+
+
+/*services*/
+#services{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#333333;
+}
+#services-card{
+	padding:7%;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	border-radius:0px;
+	margin-top:2%;
+}
+#services-card h4{
+	font-weight:900;
+}
+#services-card p{
+	font-size:15px;
+}
+
+#services-txt{
+	text-align:center;
+	color:#ffffff;
+	font-size:27px;
+	font-weight:900;
+}
+#services-desc{
+	text-align:center;
+	color:#ffffff;
+	font-size:13px;
+}
+
+
+/*classes*/
+#classes{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#0a0a0a;
+}
+#class-card{
+	text-align:center;
+	margin-top:2%;
+}
+#class-card h4{
+	font-weight:900;
+	color:#ffffff;
+}
+#our-classes{
+	text-align:center;
+	font-size:15px;
+	color: #f36100;
+	font-weight:600;
+}
+#offer{
+	text-align:center;
+	font-size:27px;
+	color: #ffffff;
+	font-weight:900;
+	margin-bottom:3%;
+}
+
+
+/*register*/
+#register{
+	padding-top:10%;
+	padding-bottom:10%;
+	width:100%;
+	background-image: url(images/register-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#register-txt{
+	text-align:center;
+	color:#ffffff;
+}
+#register-txt h1{
+	font-weight:900;
+}
+#appointment-btn{
+	color:#ffffff;
+	background-color:#E39928;
+	border-radius:0px;
+}
+#appointment-btn:hover{
+	color:#ffffff;
+	background-color:transparent;
+	border:1px solid #ffffff;
+}
+
+
+/*studio*/
+#studio{
+	padding-top:10%;
+	padding-bottom:10%;
+	width:100%;
+	background-color:#0a0a0a;
+}
+#studio-txt{
+	font-size:13px;
+	color:#ffffff;
+}
+#studio-txt .fa{
+	font-size:15px;
+	color:#E39928;
+}
+#fitness-studio{
+	text-align:center;
+	color:#ffffff;
+	font-size:27px;
+	font-weight:900;
+}
+#fitness-desc{
+	text-align:center;
+	color:#ffffff;
+	font-size:13px;
+}
+
+
+/*pricing*/
+#pricing{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#333333;
+}
+#pricing-card{
+	border:1px solid #ffffff;
+	padding:5%;
+	text-align:center;
+	color:#ffffff;
+	transition: 0.3s;
+	margin-top:3%;
+}
+#pricing-card h1{
+	color:#E39928;
+	font-weight:900;
+}
+#pricing-card h5{
+	font-weight:900;
+}
+#pricing-card p{
+	font-size:13px;
+}
+
+#enroll-btn{
+	color:#ffffff;
+	background-color:#E39928;
+	border-radius:0px;
+}
+#pricing-card:hover{
+	color:#333333;
+	background-color:#ffffff;
+}
+#our-plan{
+	text-align:center;
+	font-size:15px;
+	color: #f36100;
+	font-weight:600;
+}
+#pricing-plan{
+	text-align:center;
+	font-size:27px;
+	color: #ffffff;
+	font-weight:900;
+	margin-bottom:3%;
+}
+
+/*contact us*/
+#contact-us{
+	width:100%;
+	padding-top:10%;
+	padding-bottom:10%;
+	background-color:#0a0a0a;
+}
+label{
+	color:#ffffff;
+}
+#btn-submit{
+	color:#ffffff;
+	background-color:#E39928;
+	border-radius:0px;
+}
+#btn-submit:hover{
+	color:#ffffff;
+	background-color:transparent;
+	border:1px solid #ffffff
+}
+#get-in-touch{
+	text-align:center;
+	font-size:15px;
+	color: #f36100;
+	font-weight:600;
+}
+#get-desc{
+	text-align:center;
+	font-size:27px;
+	color: #ffffff;
+	font-weight:900;
+	margin-bottom:3%;
+}
+
+
+
+/*footer*/
+#footer{
+	width:100%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:#333333;
+}
+#f-col-1 p{
+	font-size:11px;
+	color:#ffffff;
+}
+#f-col-1 .fa{
+	font-size:30px;
+	color:#E39928;
+}
+#useful-links p{
+	font-size:11px;
+	color:#ffffff;
+}
+#useful-links h5{
+	font-weight:700;
+	color:#E39928;
+}
+#our-services p{
+	font-size:11px;
+	color:#ffffff;
+}
+#our-services h5{
+	font-weight:700;
+	color:#E39928;
+}
+#address-number{
+	font-size:11px;
+	color:#ffffff;
+	
+}
+#address-number h5{
+	font-weight:700;
+	color:#E39928;
+}
+#footer-2{
+	margin-top:5%;
+	text-align:center;
+	font-size:11px;
+	color:#ffffff;
+	border-top:1px solid #0a0a0a;
+	
+}
+#footer-2 p{
+	margin-top:2%;
+}
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#343a40;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mobile-button{
+	display:none;
+	padding:3%;
+	background-color:#343a40;
+}
+
+@media screen and (max-width: 768px){
+	#mobile-button{
+		display:block;
+	}
+	.navbar{
+		display:none;
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
